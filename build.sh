@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-VER=$(date +%Y%m%d%s)
+VER=$(printf "%x\n" $(date +%Y%m%d))
 sed -i s/%VER%/$VER/g system/skeleton/etc/issue
 echo "#Edition - $VER" | tee -a redwood.config.$VER
 git add redwood.config.$VER
