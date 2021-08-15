@@ -1,15 +1,15 @@
-#redwood
+# redwood
 
 The goal of this project is provide a source-based Linux image, in this case Buildroot, to boot to a Motorola NeXT Computer environment via Previous.
 
-#Technologies
+# Technologies
 
 - Buildroot
 - Previous
 - frnt
 - SDL2 
 
-#Methods
+# Methods
 
 Standard processes for bootstrapping a Buildroot environment were followed:
 
